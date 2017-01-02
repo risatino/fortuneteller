@@ -16,7 +16,23 @@ class PagesController < ApplicationController
   end
 
   def page_visits
+    #needs to be linked to a database/another table
     @count = 0
     @count += 1
   end
+
+  def devonrexcats
+
+      @message = ""
+
+      devonrexcats = 99
+
+      99.times do
+        @message += "#{devonrexcats} Devon Rex kitties on the wall, #{devonrexcats} Devon Rex kitties. Take one down, give it a home, #{devonrexcats - 1} Devon Rex ET-lookin' kitties. <br>"
+
+        devonrexcats -= 1
+      end
+
+    end
+
 end
