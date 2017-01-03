@@ -33,6 +33,10 @@ class PagesController < ApplicationController
         devonrexcats -= 1
       end
 
-    end
+  end
+
+  def drumkit
+    
+  end
 
 end
