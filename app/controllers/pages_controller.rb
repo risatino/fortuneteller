@@ -21,19 +21,19 @@ class PagesController < ApplicationController
     @count += 1
   end
 
-  # def devonrexcats
+  def devonrexcats
 
-  #     @message = ""
+      @message = ""
 
-  #     devonrexcats = 99
+      devonrexcats = 99
 
-  #     99.times do
-  #       @message += "#{devonrexcats} Devon Rex kitties on the wall, #{devonrexcats} Devon Rex kitties. Take one down, give it a home, #{devonrexcats - 1} Devon Rex ET-lookin' kitties. <br>"
+      99.times do
+        @message += "#{devonrexcats} Devon Rex kitties on the wall, #{devonrexcats} Devon Rex kitties. Take one down, give it a home, #{devonrexcats - 1} Devon Rex ET-lookin' kitties are chillin' on the wall. <br>"
 
-  #       devonrexcats -= 1
-  #     end
+        devonrexcats -= 1
+      end
 
-  # end
+  end
 
   def drumkit
     

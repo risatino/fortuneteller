@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/lotto' => 'pages#lotto'
   get '/count' => 'pages#page_visits'
   get '/drumkit' => 'pages#drumkit'
+  get '/devonrexcats' => 'pages#'
 end
